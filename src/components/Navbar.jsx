@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className="flex items-center gap-2">
         <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center shadow-lg">
           <svg viewBox="0 0 24 24" className="w-5 h-5" fill="none">
-            <path d="M4 6L8 14L12 8L16 14L20 6" stroke="#7C3AED" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M4 6L8 14L12 8L16 14L20 6" stroke="#1a1a2e" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
         </div>
         <span className="text-white font-bold text-lg tracking-wide">Magicare</span>
@@ -22,7 +22,7 @@ export default function Navbar() {
               className={`text-sm font-medium transition-colors ${
                 link === 'Home'
                   ? 'text-white'
-                  : 'text-purple-200 hover:text-white'
+                  : 'text-gray-400 hover:text-white'
               }`}
             >
               {link}

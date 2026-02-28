@@ -2,8 +2,8 @@ export default function HeroSection() {
   return (
     <section className="relative hero-gradient min-h-[68vh] overflow-hidden pt-24 pb-8">
       {/* Background blob decorations */}
-      <div className="absolute right-0 bottom-0 w-96 h-96 rounded-full bg-purple-400/20 blur-3xl translate-x-1/3 translate-y-1/3" />
-      <div className="absolute right-32 top-12 w-64 h-64 rounded-full bg-violet-300/10 blur-2xl" />
+      <div className="absolute right-0 bottom-0 w-96 h-96 rounded-full bg-blue-900/30 blur-3xl translate-x-1/3 translate-y-1/3" />
+      <div className="absolute right-32 top-12 w-64 h-64 rounded-full bg-blue-800/15 blur-2xl" />
 
       <div className="relative max-w-7xl mx-auto px-8 flex items-center justify-between gap-12 min-h-[52vh]">
         {/* Left — Copy */}
@@ -11,7 +11,7 @@ export default function HeroSection() {
           <h1 className="text-5xl font-bold text-white leading-tight mb-4">
             Focus on smart care
           </h1>
-          <p className="text-purple-200 text-xs tracking-[0.25em] uppercase font-medium mb-8">
+          <p className="text-gray-400 text-xs tracking-[0.25em] uppercase font-medium mb-8">
             Specialized in smart care service
           </p>
           <button className="flex items-center gap-3 px-6 py-3 border border-white/50 text-white text-sm font-medium rounded-full hover:bg-white/10 transition-all group">
